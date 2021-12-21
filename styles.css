@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v18/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v18/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v18/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwlxdu.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+section {
+    border: 1px solid black;
+    margin: 5px auto;
+    width: 500px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+section h2 {
+    position: relative;
+    left: 5px;
+    margin: 0 auto;
+}
+
+section div {
+    display: inline-block;
+    padding: 0 10px;
+    width: 100px;
+    position: relative;
+    left: 50px;
+    margin-bottom: 5px;
+}
+
+#color1 {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+#color2 {
+    background-color: rgb(50, 255, 50);
+}
+
+#color3 {
+    background-color: rgb(20, 239, 255);
+}
+
+#color4 {
+    color: white;
+    background-color: rgb(20, 0, 133);
+}
+
+section article {
+    text-align: left;
+    position: relative;
+    left: 20px;
+}
+
+section article h1 {
+    text-align: left;
+}
+
+.expansion {
+    text-align: center;
+}

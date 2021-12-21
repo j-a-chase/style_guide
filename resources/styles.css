@@ -1,3 +1,5 @@
+/*External Font Families*/
+
 @font-face {
     font-family: 'Source Sans Pro';
     font-style: italic;
@@ -25,6 +27,10 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/*End external font families*/
+
+/*General Formatting*/
+
 * {
     box-sizing: border-box;
     font-family: 'Times New Roman';
@@ -50,6 +56,10 @@ section h2 {
     left: 5px;
     margin: 0 auto;
 }
+
+/*End general formatting*/
+
+/*Colors Section*/
 
 section div {
     display: inline-block;
@@ -78,11 +88,21 @@ section div {
     background-color: rgb(20, 0, 133);
 }
 
+/*End colors section*/
+
+/*Fonts Section*/
+
 section article {
     text-align: left;
     position: relative;
     left: 20px;
 }
+
+.source_sans {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/*End fonts section*/
 
 section article h1 {
     text-align: left;
